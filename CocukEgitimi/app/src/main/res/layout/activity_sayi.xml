@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@color/orange"
+                android:textColor="@color/white"
+                android:id="@+id/sifir"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@color/yellow"
+                android:textColor="@color/white"
+                android:id="@+id/bir"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@color/orange"
+                android:textColor="@color/white"
+                android:id="@+id/iki"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="3"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@color/yellow"
+                android:textColor="@color/white"
+                android:id="@+id/uc"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@color/orange"
+                android:textColor="@color/white"
+                android:id="@+id/dort"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="5"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@color/yellow"
+                android:textColor="@color/white"
+                android:id="@+id/bes"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="6"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@color/orange"
+                android:textColor="@color/white"
+                android:id="@+id/alti"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="7"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@color/yellow"
+                android:textColor="@color/white"
+                android:id="@+id/yedi"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="8"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@color/orange"
+                android:textColor="@color/white"
+                android:id="@+id/sekiz"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/green"
+                android:text="9"
+                android:textColor="@color/white"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:id="@+id/dokuz"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="10"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:id="@+id/on"
+                />
+
+        </LinearLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3138086272868027/5021123785"></com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>

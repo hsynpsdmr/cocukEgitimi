@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.UmayYazilim.cocukegitimi">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3138086272868027~1465022154"/>
+
+        <activity android:name="com.UmayYazilim.cocukegitimi.SekilActivity"></activity>
+        <activity android:name="com.UmayYazilim.cocukegitimi.SayiActivity" />
+        <activity android:name="com.UmayYazilim.cocukegitimi.RenkActivity" />
+        <activity android:name="com.UmayYazilim.cocukegitimi.MeyvesebzeActivity" />
+        <activity android:name="com.UmayYazilim.cocukegitimi.MevsimActivity" />
+        <activity android:name="com.UmayYazilim.cocukegitimi.MeslekActivity" />
+        <activity android:name="com.UmayYazilim.cocukegitimi.HayvanActivity" />
+        <activity android:name="com.UmayYazilim.cocukegitimi.AracActivity" />
+        <activity android:name="com.UmayYazilim.cocukegitimi.AlfabeActivity" />
+        <activity android:name="com.UmayYazilim.cocukegitimi.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
